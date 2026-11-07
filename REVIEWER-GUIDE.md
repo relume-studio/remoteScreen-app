@@ -15,7 +15,7 @@ remoteScreen shows a Mac on an iPad or iPhone and lets you control that Mac by t
 | Connection | A USB **data** cable (not a charge-only cable), **or** both devices on the same Wi-Fi network |
 | Reviewer account | No account or sign-in is required anywhere in the app |
 
-The Mac app is free and is **not** distributed through the App Store, because the App Store record for this app is iOS-only. Download it here:
+The Mac app is free and is distributed **outside the App Store**, from the project's public download page. The App Store record for this app covers the iPad/iPhone viewer only.
 
 **https://github.com/relume-studio/remoteScreen-app/releases/latest/download/remoteScreen-macOS.dmg**
 
