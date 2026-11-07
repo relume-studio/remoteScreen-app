@@ -2,16 +2,17 @@
 
 把 Mac 的屏幕、应用窗口或扩展屏投到 iPad / iPhone，并用触摸和键盘操作 Mac。
 
-[![下载](https://img.shields.io/github/v/release/ouyongyong/remoteScreen-app?label=下载)](https://github.com/ouyongyong/remoteScreen-app/releases/latest)
+[![下载](https://img.shields.io/github/v/release/relume-studio/remoteScreen-app?label=下载)](https://github.com/relume-studio/remoteScreen-app/releases/latest)
 
 ## 下载
 
-👉 [最新版本（Releases）](https://github.com/ouyongyong/remoteScreen-app/releases/latest)
+👉 [最新版本（Releases）](https://github.com/relume-studio/remoteScreen-app/releases/latest)
 
 | 文件 | 说明 |
 |---|---|
 | `remoteScreen-macOS.dmg` | 安装包：打开后把 remoteScreen 拖进「应用程序」 |
 | `remoteScreen-macOS.zip` | 压缩包：解压即用 |
+| `remoteScreen-1.0-macOS.dmg` / `.zip` | 同上，带版本号的固定文件名 |
 
 官网：[remotescreen-three.vercel.app](https://remotescreen-three.vercel.app)
 
@@ -22,13 +23,13 @@
 
 ## 首次打开
 
-当前版本尚未经过 Apple 公证，第一次打开时 macOS 会提示「无法验证开发者」。放行一次即可：
+安装包已用 Developer ID 签名并通过 Apple 公证，正常情况双击即可打开，不会再出现「无法验证开发者」。
 
 1. 打开 .dmg，把 remoteScreen 拖进「应用程序」文件夹
-2. 双击打开 remoteScreen，看到提示后点「完成」
-3. 打开「系统设置 → 隐私与安全性」，在页面下方找到 remoteScreen，点「仍要打开」并确认
+2. 双击打开 remoteScreen
+3. 按引导授予「屏幕录制」和「辅助功能」权限
 
-也可以在「终端」里执行：
+如果系统仍提示无法验证开发者（例如从浏览器下载后被加上了隔离标记），运行：
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/remoteScreen.app
@@ -40,7 +41,7 @@ xattr -dr com.apple.quarantine /Applications/remoteScreen.app
 shasum -a 256 remoteScreen-macOS.dmg
 ```
 
-对照 [Releases](https://github.com/ouyongyong/remoteScreen-app/releases/latest) 页面里的 SHA256。
+对照 [Releases](https://github.com/relume-studio/remoteScreen-app/releases/latest) 页面里的 SHA256。
 
 ## 隐私
 
@@ -48,20 +49,12 @@ remoteScreen 不收集任何数据，不使用任何服务器：画面、声音�
 
 ## 联系
 
-[yongyong.ou@gmail.com](mailto:yongyong.ou@gmail.com)
+[relume26@gmail.com](mailto:relume26@gmail.com)
 
 ---
 
 Share your Mac's screen, app windows or an extended display to iPad and iPhone, and control the Mac with touch and keyboard.
 
-**Download**: [Latest release](https://github.com/ouyongyong/remoteScreen-app/releases/latest) · Website: [remotescreen-three.vercel.app/en](https://remotescreen-three.vercel.app/en)
+**Download**: [Latest release](https://github.com/relume-studio/remoteScreen-app/releases/latest) · Website: [remotescreen-three.vercel.app/en](https://remotescreen-three.vercel.app/en)
 
 **Requires** macOS 26.2 or later (universal binary). The iPad / iPhone app is coming soon to the App Store.
-
-This build isn't notarized by Apple yet. On first launch, open "System Settings → Privacy & Security" and click "Open Anyway", or run:
-
-```bash
-xattr -dr com.apple.quarantine /Applications/remoteScreen.app
-```
-
-No data is collected and no servers are used — screen, audio and input travel only between your own devices. [Privacy Policy](https://remotescreen-three.vercel.app/en/privacy)
