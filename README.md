@@ -41,7 +41,12 @@ xattr -dr com.apple.quarantine /Applications/remoteScreen.app
 shasum -a 256 remoteScreen-macOS.dmg
 ```
 
-对照 [Releases](https://github.com/relume-studio/remoteScreen-app/releases/latest) 页面里的 SHA256。
+当前版本 1.0（build 2）的 SHA256：
+
+```
+1c5c8d900b2392f85a4d13de432ec6606c1738c8dfaf279664db65893b3f17b3  remoteScreen-macOS.dmg
+416bf447fc1d3b3b2cd7985685a6ed09ea7335de9c67c2262569f153e0d567a0  remoteScreen-macOS.zip
+```
 
 ## 隐私
 
