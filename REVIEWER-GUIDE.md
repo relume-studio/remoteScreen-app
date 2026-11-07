@@ -17,9 +17,15 @@ remoteScreen shows a Mac on an iPad or iPhone and lets you control that Mac by t
 
 The Mac app is free and is distributed **outside the App Store**, from the project's public download page. The App Store record for this app covers the iPad/iPhone viewer only.
 
-**https://github.com/relume-studio/remoteScreen-app/releases/latest/download/remoteScreen-macOS.dmg**
+**Download the Mac app here — click this link:**
 
-The DMG is signed with a Developer ID certificate and notarized by Apple, so it opens normally on double-click. Version 1.0 (build 2) is the matching release.
+[**Download remoteScreen for Mac (v1.0, build 2)**](https://github.com/relume-studio/remoteScreen-app/releases/latest/download/remoteScreen-macOS.dmg)
+
+Clicking the link starts the download immediately, with no intermediate page and nothing to fill in. If your review environment does not allow clicking, copy the address below as one single line — it is deliberately kept short and contains no line break:
+
+[`https://github.com/relume-studio/remoteScreen-app/releases/latest/download/remoteScreen-macOS.dmg`](https://github.com/relume-studio/remoteScreen-app/releases/latest/download/remoteScreen-macOS.dmg)
+
+The DMG is signed with a Developer ID certificate and notarized by Apple, so it opens normally on double-click. Version 1.0 (build 2) is the matching release. If it asks for permission to download, allow it — the file is about 1.2 MB.
 
 ---
 
