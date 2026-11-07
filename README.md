@@ -10,8 +10,8 @@
 
 | 文件 | 说明 |
 |---|---|
-| `remoteScreen-macOS.dmg` | 安装包：打开后把 remoteScreen 拖进「应用程序」 |
-| `remoteScreen-macOS.zip` | 压缩包：解压即用 |
+| `remoteScreen-macOS.dmg` | 安装包：打开后把 remoteScreen 图标拖到右边的 Applications 文件夹 |
+| `remoteScreen-macOS.zip` | 压缩包：解压即用，不需要拖拽 |
 | `remoteScreen-1.0-macOS.dmg` / `.zip` | 同上，带版本号的固定文件名 |
 
 官网：[remotescreen-three.vercel.app](https://remotescreen-three.vercel.app)
@@ -44,8 +44,8 @@ shasum -a 256 remoteScreen-macOS.dmg
 当前版本 1.0（build 2）的 SHA256：
 
 ```
-1c5c8d900b2392f85a4d13de432ec6606c1738c8dfaf279664db65893b3f17b3  remoteScreen-macOS.dmg
-416bf447fc1d3b3b2cd7985685a6ed09ea7335de9c67c2262569f153e0d567a0  remoteScreen-macOS.zip
+b5566b1d8f18c7cb7e8cf325a22491b0aca141b38e2448fd035d87734f6b6450  remoteScreen-macOS.dmg
+2c5faf63c8c634b62126910a073db069d312994c6e3e8b4526d573edcb6bc41b  remoteScreen-macOS.zip
 ```
 
 ## 隐私
