@@ -51,6 +51,8 @@ remoteScreen 不收集任何数据，不使用任何服务器：画面、声音�
 
 [relume26@gmail.com](mailto:relume26@gmail.com)
 
+审核人员请看 **[How to Use — Reviewer Guide](REVIEWER-GUIDE.md)**，里面有完整的双端安装、连接和付费功能测试步骤。
+
 ---
 
 Share your Mac's screen, app windows or an extended display to iPad and iPhone, and control the Mac with touch and keyboard.
